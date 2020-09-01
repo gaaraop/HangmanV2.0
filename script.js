@@ -11,7 +11,7 @@ const figureParts = document.querySelectorAll('.figure-part');
 //const words = ['application', 'programming', 'interface', 'wizard'];
 
 function animal(){
-const words = ['bear','dog','monkey'];
+const words = ['bear','dog','monkey','chimpanzee','giraffe','tiger','lion','crocodile','penguin','madagascar'];
 
 
 let selectedWord = words[Math.floor(Math.random()*words.length)];
@@ -132,7 +132,7 @@ displayWord();
 }
 
 function country(){
-	const words = ['brazil','india','australia'];
+	const words = ['brazil','india','australia','england','pakistan','china','japan','south africa','new zealand','argentina','portugal','spain'];
 
 	let selectedWord = words[Math.floor(Math.random()*words.length)];
 
@@ -253,7 +253,7 @@ function country(){
 
 
 function sports(){
-	const words = ['cricket','hockey','basektball','tennis','badminton'];
+	const words = ['cricket','hockey','basektball','tennis','badminton','football','squash','archery','snooker'];
 
 	let selectedWord = words[Math.floor(Math.random()*words.length)];
 
@@ -374,7 +374,7 @@ function sports(){
 
 
 function apps(){
-	const words = ['instagram','whatsapp','snapchat','spotify','youtube'];
+	const words = ['instagram','whatsapp','snapchat','spotify','youtube','facebook','wikipedia','reddit','netflix'];
 let selectedWord = words[Math.floor(Math.random()*words.length)];
 
 let playable = true;
@@ -493,7 +493,7 @@ displayWord();
 }
 
 function program(){
-const words = ['python','javascript','swift','flutter','ruby'];
+const words = ['python','javascript','swift','flutter','ruby','kotlin','react','angular'];
 
 
 let selectedWord = words[Math.floor(Math.random()*words.length)];
@@ -615,7 +615,7 @@ displayWord();
 
 
 function astro(){
-const words = ['sirius','nebula','saturn','orion','andromeda'];
+const words = ['sirius','nebula','saturn','orion','andromeda','black hole','equinox','meteorite'];
 
 
 let selectedWord = words[Math.floor(Math.random()*words.length)];
