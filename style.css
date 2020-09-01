@@ -181,3 +181,9 @@ h1 {
 	position:relative;
 	top:1px;
 }
+
+
+.flex-container {
+  display: flex;
+  background-color: black;
+}
